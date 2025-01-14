@@ -1,0 +1,61 @@
+=======================================================
+Phase 2 - Milestone 3
+
+Name: Verren Monica
+Batch: RMT-038
+
+This file contains the answers to the conceptual problem.
+=======================================================
+
+# Brief Explanation of NoSQL:
+NoSQL (Not only SQL) is a database management system designed to handle semi-structured and unstructured data types.  
+NoSQL is more flexible than RDBMS, does not require complex queries, is ideal for handling large volumes of data, allows for horizontal scaling, and does not require rigid schemas/relationships like RDBMS.
+
+# When to Use NoSQL:
+- Unstructured or semi-structured data types.
+- Flexible or frequently changing data structure.
+- High speed data requirements, such as in real-time applications.
+- Large data size.
+- Supports horizontal scaling.
+- Commonly used in e-commerce or logistics applications.
+
+# When to Use RDBMS:
+- Structured data types.
+- Data with clear and consistent relationships.
+- Requires complex queries for data analysis.
+- Supports vertical scaling.
+- Suitable for data requiring consistency, such as banking or financial systems.
+
+# 2 NoSQL Tools/Platforms Besides Elasticsearch and Their Advantages:
+- MongoDB
+  --- Document store type
+  --- Supports storing documents in JSON or BSON format
+  --- More flexible data structure
+  --- Horizontal scaling
+  --- Simple queries that are easy to understand and use
+
+- Redis
+  --- Key-Value Store type
+  --- Stores data in memory, making it fast for real-time applications
+  --- Supports various data types such as strings, hashes, lists, sets, making it very flexible
+  --- Simple syntax and easy to integrate with various applications
+
+# Explanation of Airflow:
+- A platform for organizing, managing, scheduling, and monitoring workflows to ensure processes run smoothly.
+- One of its uses is to execute ETL processes: extracting data from a source, transforming the data, and loading the data into a database or data warehouse.
+
+# Explanation of Great Expectations:
+- A tool that helps verify and test data quality against specific rules or conditions.
+- If the condition is met, the data is considered valid and compliant with the established standards.
+
+# Batch Processing:
+- A data processing method that processes a set of data at a specific time.
+- There are 2 types of batch processing: scheduled and periodic.
+- In batch processing, data is first collected over a period and processed together at the designated time.
+- A case example of batch processing is the payroll system, where companies calculate salaries, deduct taxes, and transfer employee salaries at the end of each month.
+- Data processing for customer analysis reports is also an example of batch processing, where customer data is collected over a period and then used for monthly or annual report analysis.
+- The stages and tools used in batch processing are:
+  1. Storing data: Data is stored in Amazon S3 or Google Cloud Storage.
+  2. ETL: Using Amazon Lambda or Google Cloud Function.
+  3. Aggregated ETL Processing: Using Amazon EMR, Amazon Glue, and Google Cloud Dataproc.
+  4. Data Warehouse: Using Google BigQuery.
