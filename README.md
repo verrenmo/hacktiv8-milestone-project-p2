@@ -25,7 +25,7 @@ As a **Data Analyst at Supermarket ABC**, my goal is to prepare a **comprehensiv
 Additionally, I will provide **strategic recommendations** based on the findings to **increase sales and profits**, ensuring **Supermarket ABC can sustain and compete amidst intense competition from e-commerce**.  
 
 ## 📂 **Dataset Source**  
-📌 [Dataset Link](https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales/data))
+📌 [Dataset Link](https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales/data)
 
 ## ⚙️ **ETL Process (Airflow DAG)**  
 This ETL process is designed to **automate data transfer from PostgreSQL to Elasticsearch**. The dataset contains **3 months of sales data** from Supermarket ABC.  
@@ -54,11 +54,4 @@ This ETL process is designed to **automate data transfer from PostgreSQL to Elas
 ✅ **Improved competitive edge** by leveraging data-driven strategies.  
 
 ## 🔗 **Let's Connect!**  
-💼 [LinkedIn](https://www.linkedin.com/in/verren-monica/) 
-
-### ✨ **Changes & Improvements:**  
-✔ **Pisahkan DAG ke bagian "Scripts"** karena itu file **Python script (`.py`)**, bukan notebook.  
-✔ **Buat bagian "Notebooks" khusus untuk Great Expectations** agar lebih rapi.  
-✔ **Tetap menjaga flow yang profesional dan engaging.**  
-
-Ini sudah clean & sesuai dengan workflow-mu. 🚀 Mau ada tambahan lagi? 😊
+💼 [LinkedIn](https://www.linkedin.com/in/verren-monica/)
